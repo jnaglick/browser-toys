@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Browser Toys / Blocks</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+		<script type="text/javascript" src="blocks.js"></script>
+		<style>
+			body {
+				background-color: #dfdfff;
+				font-family: Trebuchet MS1, Trebuchet MS, sans-serif;
+			}
+			
+			#blockdemo-intro {
+				position: fixed;
+				bottom: 15px;
+				left: 15px;
+
+				border: 2px solid #d7d7d7;
+				background-color: #e9e9e9;
+				padding: 5px;
+			}
+
+			#blockdemo-status {
+				position: fixed;
+				bottom: 15px;
+				right: 15px;
+
+				border: 2px solid #d7d7d7;
+				background-color: #e9e9e9;
+				padding: 5px;
+				
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<span id="blockdemo-intro">
+			<span style="font-size: 30px; font-weight: bold;">browser toys / blocks</span>
+			<br/>
+			move with wasdqe
+			<br/>
+			adjust color with tyu ghj
+		</span>
+	</body>
+	<script language="JavaScript">
+		$(document).ready(function() {
+			Demo.ready();
+		});
+	</script>
+</html>
